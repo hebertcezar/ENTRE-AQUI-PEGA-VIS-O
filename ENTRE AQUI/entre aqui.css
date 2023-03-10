@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img/background2.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 950px;
+    width: 900px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intrologin{
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #3b7197;
+}
+
+.intrologo{
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.retlogins{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rets{
+    height: 300px;
+    width: 300px;
+}
+
+.vetlogins{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -250px;
+
+}
+
+.nomelogins{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+}
+
+.nmed{
+    position: relative;
+    left: -25px;
+}
+
+.npac{
+    position: relative;
+    left: 15px;
+}
+
+.nadm{
+    position: relative;
+    right: 10px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: #686E77;
+}
+
+.cadfim{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    color: #3b7197;
+}
+
+.cadas{
+    margin-top: 25px;
+    color: #3b7197;
+    text-decoration: underline;
+}
+
